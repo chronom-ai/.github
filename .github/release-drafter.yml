@@ -2,14 +2,20 @@ template: |
   ## What's Changed
 
   $CHANGES
+
+  ## Contributors
+
+  $CONTRIBUTORS
 references:
 - "main"
 - "master"
 tag-template: "v$RESOLVED_VERSION"
 name-template: "v$RESOLVED_VERSION"
-change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+change-template: |
+  - $TITLE @$AUTHOR (#$NUMBER)
+    $BODY
 header: |
-  # Version $RESOLVED_VERSION
+  # :mega: Version $RESOLVED_VERSION
 categories:
 - title: '🚀 Features'
   labels:
@@ -35,6 +41,7 @@ categories:
   - 'test'
   - 'tests'
   - 'testing'
+
 version-resolver:
   default: patch
   major:
