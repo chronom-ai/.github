@@ -42,10 +42,7 @@ categories:
   - 'patch'
 - title: '🏷️ Version Dependency Update'
   labels:
-  - 'version'
-  - 'new version'
-  - 'version bump'
-  - 'version update'
+  - 'version dependency update'
 
 
 version-resolver:
