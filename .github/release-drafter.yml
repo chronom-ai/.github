@@ -37,6 +37,16 @@ categories:
   - 'test'
   - 'tests'
   - 'testing'
+- title: '🔧 Patches'
+  labels:
+  - 'patch'
+- title: '🏷️ Version Dependency Update'
+  labels:
+  - 'version'
+  - 'new version'
+  - 'version bump'
+  - 'version update'
+
 
 version-resolver:
   default: patch
@@ -53,3 +63,5 @@ version-resolver:
     - 'bug'
     - 'fix'
     - 'bugfix'
+    - 'patch'
+    - 'hotfix'
