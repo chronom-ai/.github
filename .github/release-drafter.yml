@@ -14,33 +14,40 @@ header: |
   # :mega: Version $RESOLVED_VERSION
 categories:
 - title: '🚀 Features'
+  collapse-after: 10
   labels:
   - 'feature'
   - 'enhancement'
   - 'feat'
 - title: '🐛 Bug Fixes'
+  collapse-after: 10
   labels:
   - 'bug'
   - 'fix'
   - 'bugfix'
 - title: '🧰 Maintenance'
+  collapse-after: 10
   labels:
   - 'chore'
   - 'refactor'
   - 'maintenance'
 - title: '📚 Documentation'
+  collapse-after: 10
   labels:
   - 'docs'
   - 'documentation'
 - title: '🧪 Tests'
+  collapse-after: 10
   labels:
   - 'test'
   - 'tests'
   - 'testing'
 - title: '🔧 Patches'
+  collapse-after: 10
   labels:
   - 'patch'
 - title: '🏷️ Version Dependency Update'
+  collapse-after: 10
   labels:
   - 'version dependency update'
 
