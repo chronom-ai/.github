@@ -50,7 +50,13 @@ categories:
   collapse-after: 10
   labels:
   - 'version dependency update'
-
+- title: '🚨 Breaking Changes'
+  labels:
+  - 'breaking'
+  - 'major'
+- title: '📦 New Resource Added'
+  labels:
+  - 'new resource added'
 
 version-resolver:
   default: patch
@@ -69,3 +75,7 @@ version-resolver:
     - 'bugfix'
     - 'patch'
     - 'hotfix'
+    - 'new resource added'
+    - 'version dependency update'
+    - 'enhancement'
+    - 'feat'
